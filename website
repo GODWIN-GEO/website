@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#a{
+            width: 150px;
+            border: 1px solid grey;
+            border-radius: 20px 20px 20px 20px;
+            height: 18 0px;
+            padding: 25px;
+            position: relative;
+            background-color: rgba(245, 240, 240, 0.932);
+            }
+        div#b{
+            border: 2px solid grey;
+            border-radius: 20px 20px 20px 20px;
+            height: 215px;
+            width: 150px;
+            background-color: rgba(245,240,240, 0.932);
+            padding: 25px;
+            position: relative;
+            left: 211px;
+            bottom: 268px;
+        }
+        div#c{
+            border: 2px solid grey;
+            border-radius: 20px 20px 20px 20px;
+
+            width: 200px;
+            background-color: rgba(245,240,240, 0.932);
+            padding: 5px;
+            position: relative;
+            left: 420px;
+            bottom: 538px;
+        }
+        div#d{
+            border: 2px solid grey;
+            border-radius: 20px 20px 20px 20px;
+
+            width: 200px;
+            background-color: rgba(245,240,240, 0.932);
+            padding: 3px;
+            position: relative;
+            left: 640px;
+            bottom: 674px;  
+        }
+        #e{
+            font-size: 0.8em;
+        }
+        div#f{
+            position: relative;
+            left: 10px;
+            top: 200px;
+            background-image: url(https://i.pinimg.com/originals/11/99/d9/1199d93d1038aec00670182637d291f9.jpg);
+            position: relative;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            overflow: hidden;
+            flex-shrink: initial;
+        }
+        div#g{
+            border: 2px solid grey;
+            border-radius: 20px 20px 20px 20px;
+
+            padding: 1px;
+            background-color: rgba(245,240,240, 0.932);
+            width: 200px;
+            position: relative;
+            left: 854px;
+            bottom: 807px;
+       
+        }
+        div#h{
+            border : 2px solid grey;
+            border-radius: 20px 20px 20px 20px;
+            padding: 1px;
+            background-color: rgba(245,240,240, 0.932);
+            width: 200px;
+            position: relative;
+            left: 1065px;
+            bottom: 898px;
+        }
+        div#i{
+            border : 2px solid grey;
+            border-radius: 20px 20px 20px 20px;
+            padding: 8px;
+            background-color: rgba(245,240,240, 0.932);
+            width: 180px;
+            position: relative;
+            left: 1278px;
+            bottom: 924px;
+        }
+        #j{
+            background-color: rgb(157, 182, 14);
+            cursor: pointer;
+            visibility: yes;
+        }
+        #k{
+            text-decoration-color: rgb(224, 33, 33);
+            text-decoration: white;
+            background-color: rgb(194, 222, 233);
+            padding: 15px;
+            background-attachment: fixed;
+        }
+        #l{
+            background-color: rgb(48, 195, 231);
+            background-size: 80px;
+            text-align: center;
+            font-size: 2em;
+            font-style: italic;
+            padding: 15px;
+        }
+        #m{
+            font-size: 2.5em;
+            position: relative;
+            top: 100px;
+            left: 10px;
+        }
+        #n{
+            font-size: 2.5em;
+            position: relative;
+            bottom: 276px;
+            left: 1440px;
+        }
+        #o{
+            font-size: 2em;
+            position: relative;
+            bottom: 186px;
+            left: 1370px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="f">
+        <a href="sa"><p id="m">&#127968</p></a>
+        <i class="fas fa-home"></i>
+        <p id="l"> Tralala</p>
+        <h1><p id="k">Frontend Training&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show Menu</p></h1>
+        <a href="o"><p id="o">&#10133</p></a>
+        <a href="n"><p id="n">&#128100</p></a>
+    <div id="a">
+        <p><b>To Do &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...</b></p>
+        <input type="text" value="Learn HTML"id="e"/><br><br>
+        <input type="text" value="Learn CSS" id="e"/><br><br>
+        <input type="text" value="Learn javascript" id="e"/><br><br>
+        <a href="+ Add another card">+ Add another card</a>
+    </div>
+     <div id="b">
+         <p><strong>Doing    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ...</strong></p>
+         <input type="text" value="Prepare resume" id="e"/><br><br>
+         <textarea name="do" id="b" cols="20" rows="5"></textarea>
+         <button id="j">Add Card</button>
+     </div>
+     <div id="c">
+         <p><b>Testing/Verifying   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...</b></p>
+         <input type="text" value="Twitter app Frontend"/><br><br>
+         <a href="+ Add Another card">+ Add Another card</a>
+     </div>
+     <div id="d">
+         <p><b>Deploying&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...</b></p>
+         <input type="text" value="Twitter app backend"/><br><br>
+         <a href="+ Add Another card">+ Add Another card</a>
+     </div>
+     <div id="g">
+         <p><b>Done</b></p>
+         <a href="+Add card">+Add card</a>
+     </div>
+     <div id ="h">
+        <a href="+Add another List">+Add another List</a>
+
+     </div>
+     <div id="i">
+         <textarea id="i" cols="21" rows="5" ></textarea>
+         <button id="j">Add List</button>
+     </div>
+     <script type="text/javascript">
+     <!--
+     function toggle_visibility(j){
+        var e=document.getElementById("j");
+        if(e.style.display == "block")
+           e.style.display = "none";
+           else
+           e.style.display = "block";
+     }
+        -->
+    </script>
+
+    <!-- Inline usage in html -->
+    <a href="#" onclick="toggle_visibility('foo');">click here to toggle visibility of element #foo</a>
+    <div id="foo">This is foo</div>
+    </div>
+</body>
+</html>
